@@ -1,0 +1,2 @@
+C:\Users\tvance\source\repos\BasicFantasyRPG-CharacterCreator\BasicFantasyRPG-CharacterCreator\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\tvance\source\repos\BasicFantasyRPG-CharacterCreator\BasicFantasyRPG-CharacterCreator\obj\Debug\BasicFantasyRPG-CharacterCreator.njsprojAssemblyReference.cache
