@@ -9,28 +9,39 @@
                     <b-button variant="info" v-on:click="standardArrayScores()">STANDARD ARRAY</b-button>
                 </b-col>
             </b-row>
+            <b-row>
+                <b-col>
+                    <h5>Drag And Drop or Manually Select</h5>
+                </b-col>
+            </b-row>
             <b-row class="my-1">
                 <b-col>
                     <b-container fluid class="onepercent" id="diceRoller">
                         <b-row class="my-1">
                             <b-col class="border dieRoll cols-lg" draggable="true" v-on:dragstart="setDragInfo($event)" v-bind:data-value="randomrolls.one">
+                                <p class="h1 mb-2"><b-icon icon="arrow-down" variant="warning" class="float-left"></b-icon></p>
                                 <span>{{randomrolls.one}}</span>
                             </b-col>
                             <b-col class="border dieRoll" draggable="true" v-on:dragstart="setDragInfo($event)" v-bind:data-value="randomrolls.two">
+                                <p class="h1 mb-2"><b-icon icon="arrow-down" variant="warning" class="float-left"></b-icon></p>
                                 <span>{{randomrolls.two}}</span>
                             </b-col>
                             <b-col class="border dieRoll" draggable="true" v-on:dragstart="setDragInfo($event)" v-bind:data-value="randomrolls.three">
+                                <p class="h1 mb-2"><b-icon icon="arrow-down" variant="warning" class="float-left"></b-icon></p>
                                 <span>{{randomrolls.three}}</span>
                             </b-col>
                         </b-row>
                         <b-row class="my-1">
                             <b-col class="border dieRoll" draggable="true" v-on:dragstart="setDragInfo($event)" v-bind:data-value="randomrolls.four">
+                                <p class="h1 mb-2"><b-icon icon="arrow-down" variant="warning" class="float-left"></b-icon></p>
                                 <span>{{randomrolls.four}}</span>
                             </b-col>
                             <b-col class="border dieRoll" draggable="true" v-on:dragstart="setDragInfo($event)" v-bind:data-value="randomrolls.five">
+                                <p class="h1 mb-2"><b-icon icon="arrow-down" variant="warning" class="float-left"></b-icon></p>
                                 <span>{{randomrolls.five}}</span>
                             </b-col>
                             <b-col class="border dieRoll" draggable="true" v-on:dragstart="setDragInfo($event)" v-bind:data-value="randomrolls.six">
+                                <p class="h1 mb-2"><b-icon icon="arrow-down" variant="warning" class="float-left"></b-icon></p>
                                 <span>{{randomrolls.six}}</span>
                             </b-col>
                         </b-row>
@@ -91,3 +102,14 @@
         }
     };
 </script>
+
+<style>
+    .dieRoll {
+        background-color: ghostwhite;
+        border-radius: 25px;
+        cursor: move;
+        width:10%;
+        padding:1em;
+        margin: 1em 1em 1em 1em;
+    }
+</style>

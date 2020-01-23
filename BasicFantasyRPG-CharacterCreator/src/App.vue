@@ -1143,12 +1143,4 @@
     .charSheet {
         background-color: #fffff8;
     }
-
-    .dieRoll {
-        background-color: ghostwhite;
-    }
-
-    .dieTotal {
-        background-color: palegreen;
-    }
 </style>
